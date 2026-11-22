@@ -4,6 +4,8 @@ My first dashboard project. It looks at headcount, attrition and pay for a compa
 
 I work in HR operations, and I wanted to see how far I could get with the tools I already use every day: Power Query, pivot tables and formulas.
 
+![Dashboard](images/dashboard.png)
+
 ## What's in the file
 
 | Sheet | What it does |
@@ -12,7 +14,9 @@ I work in HR operations, and I wanted to see how far I could get with the tools 
 | Business Report | Summary tables, findings and notes on the data |
 | Cleaned_Data | The cleaned table everything else runs on (4,988 rows) |
 | HR_Master_Data | The raw data, untouched (5,000 rows) |
-| KPIs, Pivot Tables | The calculations behind the dashboard |
+| KPIs, Pivot Tables, Dept Avg Salary, Department Avg attendance | The calculations behind the dashboard |
+
+Only the first three sheets are visible when you open the file. The rest are hidden to keep it tidy: right-click any sheet tab and choose Unhide to see them.
 
 ## About the data
 
@@ -58,7 +62,7 @@ I also first showed attrition as 12.6%. That's everyone who ever left divided by
 
 ## Opening the file
 
-Download the .xlsx file and open it in desktop Excel (2016 or later). The slicers and timeline don't work in Excel Online or Google Sheets. If Excel shows a security bar, click Enable Content so the pivots can refresh.
+Download `HR_Analytics_Dashboard.xlsx` and open it in desktop Excel (2016 or later). The slicers and timeline don't work in Excel Online or Google Sheets. If Excel shows a security bar, click Enable Content so the pivots can refresh.
 
 ## Tools
 
